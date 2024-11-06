@@ -12,7 +12,7 @@ COPY package.json .
 COPY . .
 
 # Enable Corepack and use a specific version of Yarn
-RUN corepack enable && corepack prepare yarn@stable --activate && yarn set version 3.3.0 && yarn install
+RUN corepack enable && corepack prepare yarn@stable --activate && yarn set version 3.3.0 && yarn install && yarn check --verify-tree
 
 RUN yarn build
 
