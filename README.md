@@ -4,8 +4,6 @@ I added a dockerfile so that I can easily deploy it.
 
 This application will serve as a baseline for my future blog projects.
 
-
-##If you want to use docker:
 ```
 cd blog-nd-photo
 docker build -t ndpblog .
