@@ -1,4 +1,5 @@
 This is my fork of popular nextjs + tailwind blog setup. 
+https://github.com/timlrx/tailwind-nextjs-starter-blog
 
 I added a dockerfile so that I can easily deploy it. 
 
